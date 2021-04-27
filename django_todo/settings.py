@@ -33,6 +33,7 @@ DEBUG = development
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),
                  os.environ.get('HOSTNAME'),
+                 '127.0.0.1',
                  '1fc4e4266e6346c8a604bf9f26967719.vfs.cloud9.eu-central-1.amazonaws.com']
 
 
